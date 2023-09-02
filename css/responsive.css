@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@media screen and (max-width: 1200px){
+	.thing > div:first-child{width: 75%;}
+	.thing > div:last-child{width: 25%;}
+	.thing a{font-size: 15px; padding: 10px 20px;}
+	section{padding: 50px 2%;}
+	.parallax{padding: 100px 2%;}
+	.every{width: 96%;}
+}
+@media screen and (max-width: 1000px){
+	.icons{width: 20%;}
+	.boss{width: 80%;}
+	.envelope .fa{display: none;}
+	#contact .contact{width: 100%;}
+}
+@media screen and (max-width: 850px){
+	.feature1,.feature2{width: 100%;margin: 30px 0px;}
+	header h1{font-size: 9.5vw;}
+	header h2{font-size: 5.5vw;}
+	header h3{font-size: 4vw;}
+	#nav{display: none;float: none;border:none;padding: 0px;margin-top: 7px;}
+	#nav a{display: block;background-color: rgba(0,0,0,0.8);text-align: left;padding: 15px;}
+	.menu{display: inline-block;}
+}
+@media screen and (max-width: 650px){
+	.thing{display: block;}
+	.parallax{height: 300px;}
+	.thing > div:first-child{width: 100%;}
+	.thing > div:last-child{width: 100%; text-align: center;}
+	.EandV{display: block;}
+	.EandV > div{width: 100%;}
+	.visit{padding:5px;}
+	.every{font-size: 20px;}
+	.flex{display: block;}
+	.flex > div{width: 100%;}
+	#port img{width: 100%;padding: 10px;}
+}
