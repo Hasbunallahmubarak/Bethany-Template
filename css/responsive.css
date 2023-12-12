@@ -14,19 +14,32 @@
 	#contact .contact{width: 100%;}
 }
 @media screen and (max-width: 850px){
-	.feature1,.feature2{width: 100%;margin: 30px 0px;}
+	.feature1,.feature2
+	{width: 100%;margin: 30px 0px;}
 	header h1{font-size: 9.5vw;}
 	header h2{font-size: 5.5vw;}
-	header h3{font-size: 4.5vw;}
-	#nav{display: none;float: none;border:none;padding: 0px;margin-top: 7px;}
-	#nav a{display: block;background-color: rgba(0,0,0,0.8);text-align: left;padding: 15px;}
+	header h3{font-size: 4vw;}
+	#nav{
+		display: none;
+		float: none;
+		border:none;
+		padding: 0px;
+		margin-top: 7px;
+	}
+	#nav a{
+		display: block;
+		text-align: left;
+		padding: 15px;
+		background-color: rgba(0,0,0,0.8);
+	}
 	.menu{display: inline-block;}
 }
 @media screen and (max-width: 650px){
 	.thing{display: block;}
 	.parallax{height: 300px;}
 	.thing > div:first-child{width: 100%;}
-	.thing > div:last-child{width: 100%; text-align: center;}
+	.thing > div:last-child
+	{width: 100%; text-align: center;}
 	.EandV{display: block;}
 	.EandV > div{width: 100%;}
 	.visit{padding:5px;}
@@ -34,4 +47,11 @@
 	.flex{display: block;}
 	.flex > div{width: 100%;}
 	#port img{width: 100%;padding: 10px;}
+	footer span{
+		float: none;
+		display: block;
+		width: 100%;
+		text-align:left;
+		padding: 10px 0px;
+	}
 }
